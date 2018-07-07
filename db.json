@@ -1,14 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "people": [
+        { header: 'Sellers' },
+        { name: 'Sandra Adams', group: 'Sellers', avatar: 'https://vuetifyjs.com/doc-images/lists/1.jpg'},
+        { name: 'Willy Wonka', group: 'Sellers', avatar: 'https://vuetifyjs.com/doc-images/lists/2.jpg'},
+        { name: 'Trevor Hansen', group: 'Sellers', avatar: 'https://vuetifyjs.com/doc-images/lists/3.jpg'},
+        { name: 'Tucker Smith', group: 'Sellers', avatar: 'https://vuetifyjs.com/doc-images/lists/2.jpg'},
+        { divider: true },
+        { header: 'Products' },
+        { name: 'Remote V12X32', group: 'Products', seller: 'Arnold Systems', avatar: 'https://vuetifyjs.com/doc-images/lists/4.jpg'},
+        { name: 'Crunchy tab', group: 'Products', seller: 'Willy Wonka', avatar: 'https://vuetifyjs.com/doc-images/lists/5.jpg'},
+        { name: 'Love potion (potent)', group: 'Products', seller: 'Severus Snape', avatar: 'https://vuetifyjs.com/doc-images/lists/1.jpg'},
+        { name: 'Mechanical Kitty', group: 'Products', seller: 'Me Me', avatar: 'https://vuetifyjs.com/doc-images/lists/3.jpg'}
+      ]
 }
